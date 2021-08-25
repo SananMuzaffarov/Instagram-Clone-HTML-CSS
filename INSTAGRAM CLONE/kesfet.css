@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.bir{
+    background-color: rgba(var(--b3f,250,250,250),1);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    position: relative;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    transition: .2s ease-in-out;
+    z-index: 3;
+    height: 54px;
+    width: 100%;
+}
+.instagram{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    margin-left: 170px;
+    margin-top: 12px;
+}
+.instagram img{
+    width: 103px;
+    height: 33px;
+}
+.input{
+    position: absolute;
+    display: flex;
+    left: 43%;
+    margin-top: 13px;
+}
+.input input{
+    background-color: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    width: 175px;
+    height: 24px;
+ }
+.input ::placeholder{
+    font-size: 17px;
+    text-align: center;
+    font-weight: 300;
+}
+.nav-links ul{
+    display: flex;
+    position: absolute;
+    list-style: none;
+    margin-top: -10px;
+    left: 68.2%;
+}
+.nav-links ul li a i{
+    text-decoration: none;
+    margin: 23px;
+    color: rgb(80, 80, 80);
+    font-size: 25px;
+}
+.nav-links ul li .active i{
+    text-decoration: none;
+    margin: 23px;
+    color: blue;
+    font-size: 25px;
+}
+.nav-links ul li a i:hover{
+    color: blue;
+}
+.sekil1{
+    position: absolute;
+    display: flex;
+    left: 19%;
+    top: 4%;
+    cursor: pointer;
+}
+.sekil1 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil2{
+    position: absolute;
+    display: flex;
+    left: 41%;
+    top: 4%;
+    cursor: pointer;
+}
+.sekil2 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil3{
+    position: absolute;
+    display: flex;
+    left: 63%;
+    top: 4%;
+    cursor: pointer;
+}
+.sekil3 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil4{
+    position: absolute;
+    display: flex;
+    left: 19%;
+    top: 18.2%;
+    cursor: pointer;
+}
+.sekil4 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil5{
+    position: absolute;
+    display: flex;
+    left: 41%;
+    top: 18.2%;
+    cursor: pointer;
+}
+.sekil5 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil6{
+    position: absolute;
+    display: flex;
+    left: 63%;
+    top: 18.2%;
+    cursor: pointer;
+}
+.sekil6 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil7{
+    position: absolute;
+    display: flex;
+    left: 19%;
+    top: 32.4%;
+    cursor: pointer;
+}
+.sekil7 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil8{
+    position: absolute;
+    display: flex;
+    left: 41%;
+    top: 32.4%;
+    cursor: pointer;
+}
+.sekil8 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil9{
+    position: absolute;
+    display: flex;
+    left: 63%;
+    top: 32.4%;
+    cursor: pointer;
+}
+.sekil9 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil10{
+    position: absolute;
+    display: flex;
+    left: 19%;
+    top: 46.6%;
+    cursor: pointer;
+}
+.sekil10 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil11{
+    position: absolute;
+    display: flex;
+    left: 41%;
+    top: 46.6%;
+    cursor: pointer;
+}
+.sekil11 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil12{
+    position: absolute;
+    display: flex;
+    left: 63%;
+    top: 46.6%;
+    cursor: pointer;
+}
+.sekil12 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil13{
+    position: absolute;
+    display: flex;
+    left: 19%;
+    top: 60.8%;
+    cursor: pointer;
+}
+.sekil13 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil14{
+    position: absolute;
+    display: flex;
+    left: 41%;
+    top: 60.8%;
+    cursor: pointer;
+}
+.sekil14 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil15{
+    position: absolute;
+    display: flex;
+    left: 63%;
+    top: 60.8%;
+    cursor: pointer;
+}
+.sekil15 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil16{
+    position: absolute;
+    display: flex;
+    left: 19%;
+    top: 75%;
+    cursor: pointer;
+}
+.sekil16 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil17{
+    position: absolute;
+    display: flex;
+    left: 41%;
+    top: 75%;
+    cursor: pointer;
+}
+.sekil17 img{
+    width: 292px;
+    height: 292px;
+}
+.sekil18{
+    position: absolute;
+    display: flex;
+    left: 63%;
+    top: 75%;
+    cursor: pointer;
+}
+.sekil18 img{
+    width: 292px;
+    height: 292px;
+}
+.navip{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 95%;
+    left: 28.9%;
+}
+.nav-linksx ul{
+    display: flex;
+    position: relative;
+    list-style: none;
+}
+.nav-linksx ul li a{
+    text-decoration: none;
+    margin: 12px;
+    color: rgba(var(--f52,142,142,142),1);
+    line-height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.al{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 97%;
+    left: 41%;
+}
+.navik ul{
+    display: flex;
+    position: relative;
+    list-style: none;
+}
+.navik ul li a{
+    text-decoration: none;
+    margin: 12px;
+    color: rgba(var(--f52,142,142,142),1);
+    line-height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5 ease;
+}
+.layer:hover{
+    background: rgba(90, 86, 86, 0.445);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Anton', sans-serif;
+    bottom: 0;
+    left: 81%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5 ease;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
